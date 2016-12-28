@@ -1,6 +1,6 @@
 {
   "name": "diz-plugin-collection-page-generator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Diz plugin that create a list page",
   "main": "./collection-page-generator.js",
   "keywords": [
