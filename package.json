@@ -36,6 +36,7 @@
     "xo": "^0.17.1"
   },
   "dependencies": {
+    "diz": "^0.0.0",
     "lodash.chunk": "^4.2.0",
     "lodash.flatten": "^4.4.0",
     "pluralize": "^3.1.0",
