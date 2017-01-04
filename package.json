@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "babel-preset-react": "^6.16.0",
-    "diz": "^0.0.5",
+    "diz": "^0.0.6",
     "lodash.chunk": "^4.2.0",
     "lodash.flatten": "^4.4.0",
     "pluralize": "^3.1.0",
