@@ -17,6 +17,7 @@
   "homepage": "https://github.com/nju33/diz-plugin-collection-page-generator#readme",
   "scripts": {
     "build": "gulp babel",
+    "start": "gulp watch",
     "prepublish": "yarn build",
     "test": "xo"
   },
@@ -39,13 +40,13 @@
   "dependencies": {
     "lodash.chunk": "^4.2.0",
     "lodash.flatten": "^4.4.0",
+    "lodash.topairs": "^4.3.0",
     "pluralize": "^3.1.0",
+    "string-template": "^1.0.0",
     "validated": "^0.9.0"
   },
   "xo": {
     "space": 2
   },
-  "peerDependencies": {
-    "diz": "^0.0.3"
-  }
+  "peerDependencies": {}
 }
