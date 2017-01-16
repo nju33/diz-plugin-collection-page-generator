@@ -17,7 +17,12 @@ $ npm i -D diz-plugin-collection-page-generator
   ...,
   plugins: [
     new CollectionPageGenerator({
-      collectionKey: 'collectionKey'
+      target: 'categories',
+      pager: 5
+    }),
+    new CollectionPageGenerator({
+      target: 'tags',
+      pager: 10
     })
   ],
   ...
@@ -27,13 +32,13 @@ $ npm i -D diz-plugin-collection-page-generator
 
 - `type`(def:`'LIST'`)  
   Spwcify the contents type
-- `collectionKey`(def:`''`)  
+- `target`(def:`''`)  
   Specify the keys to collect in each front matter data
 - `pager`(def:`20`)  
   Specify how many items to display per page
-- `titleTemplate`(def:)  
+- `title`(def:)  
   todo...
-- `descriptionTemplate`(def:)  
+- `description`(def:)  
   todo...
 
 ## License

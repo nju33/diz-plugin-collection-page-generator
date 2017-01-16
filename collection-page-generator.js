@@ -1,1 +1,1 @@
-module.exports = require('./dist/collection-page-generator');
+module.exports = require('./dist/collection-page-generator').default;
